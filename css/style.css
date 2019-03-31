@@ -1,0 +1,129 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  display: inline-block;
+  text-align: right;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  vertical-align: middle;
+  z-index: 2;
+  background-color: black;
+}
+
+nav img {
+  height: 50px;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav a {
+  color: grey;
+  padding: 5px;
+  text-decoration: underline;
+  text-align: right;
+}
+
+header {
+  position: relative;
+  display: block;
+  top: 70px;
+  background-image: url(../images/img-donut.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  max-width: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  display: block;
+  float: center;
+  top: 50%;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.text-overlay h2 {
+  display: block;
+}
+
+.features {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  top: 125px;
+  text-align: center;
+}
+
+.flex-features {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-features img {
+  height: 200px;
+  margin: 10px;
+}
+
+.locations {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  top: 125px;
+  height: 500px;
+  max-width: 1000px;
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.locations h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.locations-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.locations-card {
+  width: 300px;
+  background-color: black;
+  margin: 10px;
+  opacity: 1;
+  text-align: center;
+}
+
+.contact {
+  position: relative;
+  display: block;
+  top: 125px;
+  text-align: center;
+  height: 200px;
+}
+
+footer {
+  position: relative;
+  display: block;
+  top: 80px;
+  bottom: 0;
+  text-align: left;
+}
