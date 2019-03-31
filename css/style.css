@@ -127,3 +127,15 @@ footer {
   bottom: 0;
   text-align: left;
 }
+
+@media only screen and (max-width: 440px) {
+  nav a {
+    font-size: 12px;
+    display: block;
+    padding: 5px;
+  }
+
+  nav {
+    height: 100px;
+  }
+}
