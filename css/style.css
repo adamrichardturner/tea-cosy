@@ -138,4 +138,9 @@ footer {
   nav {
     height: 100px;
   }
+
+  a:hover {
+    color: white;
+  }
+
 }
