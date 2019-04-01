@@ -34,6 +34,10 @@ nav a {
   text-align: right;
 }
 
+a:hover {
+  color: white;
+}
+
 header {
   position: relative;
   display: block;
@@ -138,9 +142,4 @@ footer {
   nav {
     height: 100px;
   }
-
-  a:hover {
-    color: white;
-  }
-
 }
