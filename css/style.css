@@ -10,7 +10,6 @@ body {
 nav {
   width: 100%;
   position: fixed;
-  height: 69px;
   display: inline-block;
   text-align: right;
   align-items: center;
@@ -25,11 +24,14 @@ nav img {
   float: left;
   display: inline-block;
   vertical-align: middle;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 nav a {
   color: grey;
-  padding: 5px;
+  font-size: 22px;
+  padding: 10px 5px 10px 5px;
   text-decoration: underline;
   text-align: right;
 }
@@ -42,7 +44,7 @@ header {
   position: relative;
   display: block;
   top: 70px;
-  background-image: url(../images/img-donut.jpg);
+  background-image: url(../images/img-mission-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
